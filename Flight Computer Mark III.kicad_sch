@@ -3815,187 +3815,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LMR51430XDDCR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10128,7 +9947,7 @@
 	)
 	(global_label "CLK_SPIEXT"
 		(shape output)
-		(at 273.05 60.96 0)
+		(at 265.43 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10137,7 +9956,7 @@
 		)
 		(uuid "3ff36cb1-9978-43cd-b9d3-7b9411ef9283")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 60.96 0)
+			(at 265.43 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11048,7 +10867,7 @@
 	)
 	(global_label "MOSI_SPIEXT"
 		(shape output)
-		(at 273.05 76.2 0)
+		(at 265.43 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11057,7 +10876,7 @@
 		)
 		(uuid "a0100b77-1927-4844-b738-ad3cb9cea794")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 76.2 0)
+			(at 265.43 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11488,7 +11307,7 @@
 	)
 	(global_label "MISO_SPIEXT"
 		(shape input)
-		(at 273.05 68.58 0)
+		(at 265.43 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11497,7 +11316,7 @@
 		)
 		(uuid "d9bcea45-a0bf-4e26-9578-e619afe09359")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 273.05 68.58 0)
+			(at 265.43 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16824,74 +16643,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 269.24 60.96 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b278c03-433b-4b31-96f7-8f6f16f32638")
-		(property "Reference" "CLK1"
-			(at 268.986 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 268.986 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 269.24 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 269.24 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "db16cb72-90e8-4b9b-8e59-f6d72513d4b8")
-		)
-		(pin "1"
-			(uuid "a604624d-8704-4a8d-b090-f786312c21ef")
-		)
-		(instances
-			(project "Flight Computer Mark III"
-				(path "/0bad6c6f-d77b-4b1f-bd5d-3c971ec5e274"
-					(reference "CLK1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Flight Computer:Pyro-Pad")
 		(at 167.64 193.04 90)
 		(unit 1)
@@ -17457,74 +17208,6 @@
 				(path "/db18c0fb-82fe-4df0-947c-bd1471fcdf80"
 					(reference "3.3VREG")
 					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 269.24 76.2 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae5a2a85-058d-4df4-8d32-c61e34fa346e")
-		(property "Reference" "MOSI1"
-			(at 268.986 78.486 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 268.986 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 269.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 269.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "681b16a4-4c4f-4425-a803-45bafef1c700")
-		)
-		(pin "1"
-			(uuid "4dc3dd81-2654-415c-bead-30b123d60370")
-		)
-		(instances
-			(project ""
-				(path "/0bad6c6f-d77b-4b1f-bd5d-3c971ec5e274"
-					(reference "MOSI1")
-					(unit 1)
 				)
 			)
 		)
@@ -19942,74 +19625,6 @@
 			(project "Flight Computer Mark III"
 				(path "/0bad6c6f-d77b-4b1f-bd5d-3c971ec5e274"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 269.24 68.58 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee591a6d-bf80-49f3-b996-8622ed645e88")
-		(property "Reference" "MISO1"
-			(at 268.986 70.866 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 268.986 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 269.24 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 269.24 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a04115d4-1fe4-4f07-8bf7-ee836e247af0")
-		)
-		(pin "1"
-			(uuid "12d2fb54-e9ed-4224-ab97-7d17a5302d87")
-		)
-		(instances
-			(project "Flight Computer Mark III"
-				(path "/0bad6c6f-d77b-4b1f-bd5d-3c971ec5e274"
-					(reference "MISO1")
 					(unit 1)
 				)
 			)
