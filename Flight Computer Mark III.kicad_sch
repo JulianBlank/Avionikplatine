@@ -1702,116 +1702,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -10761,26 +10651,6 @@
 			)
 		)
 	)
-	(global_label "WorkingLED"
-		(shape output)
-		(at 259.08 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a23c625-07a3-4bb4-b4f8-f303eaf1a608")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO0"
 		(shape input)
 		(at 135.89 39.37 0)
@@ -11345,28 +11215,6 @@
 			)
 		)
 	)
-	(global_label "shutter"
-		(shape input)
-		(at 213.36 193.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "defada4d-c9df-4a3c-8074-ba462b6781a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.7225 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Servo4"
 		(shape input)
 		(at 149.86 114.3 0)
@@ -11625,26 +11473,6 @@
 		(uuid "f457f958-cd58-47d1-8ff0-bb758d1dce8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.91 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WorkingLED"
-		(shape input)
-		(at 264.16 191.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f4d3c1e7-d3ef-4fe9-9f60-7655d3488c0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 264.16 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12551,73 +12379,6 @@
 			(project "Flight Computer Mark III"
 				(path "/0bad6c6f-d77b-4b1f-bd5d-3c971ec5e274"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 218.44 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18d55b76-a2b8-4719-bc6f-ada979bd3ff5")
-		(property "Reference" "SHTR1"
-			(at 220.98 191.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 220.98 194.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 218.44 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 218.44 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20c0a70c-0db9-4bcd-97da-69285697a669")
-		)
-		(instances
-			(project ""
-				(path "/0bad6c6f-d77b-4b1f-bd5d-3c971ec5e274"
-					(reference "SHTR1")
 					(unit 1)
 				)
 			)
@@ -14753,73 +14514,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 267.97 191.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6777e66e-db40-432b-9caf-3e17c1836757")
-		(property "Reference" "ON1"
-			(at 268.224 196.342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 268.478 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 267.97 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 267.97 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5adb02c-c73f-4d17-b888-72109b524a60")
-		)
-		(pin "1"
-			(uuid "8ce94709-d0eb-4a31-af65-aaf3c11d79ae")
-		)
-		(instances
-			(project ""
-				(path "/0bad6c6f-d77b-4b1f-bd5d-3c971ec5e274"
-					(reference "ON1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 279.4 182.88 90)
 		(unit 1)
@@ -15306,73 +15000,6 @@
 				(path "/db18c0fb-82fe-4df0-947c-bd1471fcdf80"
 					(reference "3VFILTER4")
 					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 279.4 191.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73d62c34-44ce-4c1f-b2ea-d32fdd257b4f")
-		(property "Reference" "#PWR037"
-			(at 285.75 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 283.21 191.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 279.4 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 279.4 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d3cff9f0-3116-474a-9361-58650cd736c8")
-		)
-		(instances
-			(project "Flight Computer Mark II"
-				(path "/0bad6c6f-d77b-4b1f-bd5d-3c971ec5e274"
-					(reference "#PWR037")
-					(unit 1)
 				)
 			)
 		)
@@ -19892,74 +19519,6 @@
 			(project ""
 				(path "/0bad6c6f-d77b-4b1f-bd5d-3c971ec5e274"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "R_4")
-		(lib_id "Device:R")
-		(at 275.59 191.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4278ab6-afb8-4765-9c5a-5b2e370e6aa9")
-		(property "Reference" "R17"
-			(at 275.336 194.564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "400"
-			(at 275.844 196.596 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 275.59 193.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 275.59 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56b0347a-2e3c-4787-a02d-4c61029a3a1b")
-		)
-		(pin "2"
-			(uuid "fc1cf387-fde1-44ca-a134-0ec1b838a804")
-		)
-		(instances
-			(project "Flight Computer Mark II"
-				(path "/0bad6c6f-d77b-4b1f-bd5d-3c971ec5e274"
-					(reference "R17")
 					(unit 1)
 				)
 			)
