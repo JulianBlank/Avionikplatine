@@ -80,7 +80,7 @@
   "project": {
     "files": [
       {
-        "name": "Flight Computer Mark III.kicad_sch",
+        "name": "Flight Computer Mark III.kicad_pcb",
         "open": false,
         "window": {
           "display": 1,
@@ -92,7 +92,7 @@
         }
       },
       {
-        "name": "Flight Computer Mark III.kicad_pcb",
+        "name": "Flight Computer Mark III.kicad_sch",
         "open": false,
         "window": {
           "display": 1,
